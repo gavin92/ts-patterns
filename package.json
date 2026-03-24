@@ -1,0 +1,24 @@
+{
+  "name": "ts-patterns",
+  "description": "Welcome to the TypeScript Design Patterns repository! This project contains TypeScript implementations of the **22 classic design patterns** originally formulated by the \"Gang of Four\" (GoF) in 1994.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --loader ts-node/esm",
+    "dev": "node --loader ts-node/esm",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "undici-types": "^7.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^6.0.2",
+    "ts-node": "^10.9.2"
+  },
+  "keywords": ["typescript", "design-patterns"],
+  "author": "Gavin Cettolo",
+  "license": "ISC"
+}
